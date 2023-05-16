@@ -1,0 +1,43 @@
+-> Create database named atmsimulationsystem
+->create table named signup1 with atttributes 
+formno	varchar(20)				
+cust_name	varchar(20)				
+father_name	varchar(20)				
+dob	varchar(20)				
+gender	varchar(30)				
+email	varchar(30)				
+marital_stat	varchar(20)				
+adddress	varchar(40)				
+city	varchar(20)				
+state	varchar(20)				
+pin	varchar(10)			
+
+-> Create table named signup2 with attributes
+formno	varchar(20)				
+religion	varchar(20)				
+category	varchar(20)				
+income	varchar(20)				
+education	varchar(20)				
+occupation	varchar(20)				
+pan	varchar(20)				
+aadhar	varchar(20)				
+existingacc	varchar(20)				
+senior_citizen	varchar(20)	
+
+->Create table	 named signup3 with attributes
+formno	varchar(20)				
+acctype	varchar(40)				
+cardnumber	varchar(25)				
+pin	varchar(10)				
+facility	varchar(150)	
+
+-> Create table named login with attributes
+formno	varchar(20)				
+cardnumber	varchar(25)				
+pin	varchar(10)	
+
+->Create table named bank with attributes
+pin	varchar(10)				
+date	varchar(40)				
+type	varchar(20)				
+amount	varchar(20)												
